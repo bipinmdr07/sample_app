@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'bootstrap-sass'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -52,6 +53,7 @@ group :test do
 	gem 'mini_backtrace'
 	gem 'guard'
 	gem 'guard-minitest'
+  gem 'rails-controller-testing'
 end
 
 group :production do
